@@ -3,7 +3,7 @@
 <package format="3">
   <name>person_msgs</name>
   <version>0.0.0</version>
-  <description>made the original type called msg</description>
+  <description>made the original type called Person</description>
   <maintainer email="youjiyongmu4@gmail.com">NAGAKI yuki</maintainer>
   <license>BSD-3-Clause</license>
 
