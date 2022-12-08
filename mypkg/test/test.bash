@@ -7,4 +7,5 @@ cd $dir/robosys/ros2
 colcon build
 source $dir/.bashrc
 
-ros2 launch mypkg talk_listen.launch.py
+timeout 10 ros2 launch mypkg talk_listen.launch.py
+
