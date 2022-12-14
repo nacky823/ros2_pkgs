@@ -3,7 +3,7 @@
 dir=~
 [ "$1" != "" ] && dir="$1"  # このシェルスクリプトに引数があれば、それをホームとする。
 
-cd $dir/robosys/ros2
+cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
 
